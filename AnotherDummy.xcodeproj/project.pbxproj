@@ -14,6 +14,8 @@
 		B816748026BF062600C2F586 /* AnotherDummy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B816747E26BF062600C2F586 /* AnotherDummy.xcdatamodeld */; };
 		B816748226BF062900C2F586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B816748126BF062900C2F586 /* Assets.xcassets */; };
 		B816748526BF062900C2F586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B816748326BF062900C2F586 /* LaunchScreen.storyboard */; };
+		B816748D26BF07F300C2F586 /* NavBarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816748C26BF07F300C2F586 /* NavBarListViewController.swift */; };
+		B816748F26BF0C6900C2F586 /* NavBarListDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816748E26BF0C6900C2F586 /* NavBarListDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B816748126BF062900C2F586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B816748426BF062900C2F586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B816748626BF062900C2F586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B816748C26BF07F300C2F586 /* NavBarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarListViewController.swift; sourceTree = "<group>"; };
+		B816748E26BF0C6900C2F586 /* NavBarListDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarListDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				B816748326BF062900C2F586 /* LaunchScreen.storyboard */,
 				B816748626BF062900C2F586 /* Info.plist */,
 				B816747E26BF062600C2F586 /* AnotherDummy.xcdatamodeld */,
+				B816748C26BF07F300C2F586 /* NavBarListViewController.swift */,
+				B816748E26BF0C6900C2F586 /* NavBarListDetailsViewController.swift */,
 			);
 			path = AnotherDummy;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B816748D26BF07F300C2F586 /* NavBarListViewController.swift in Sources */,
 				B816747A26BF062600C2F586 /* ViewController.swift in Sources */,
 				B816747626BF062600C2F586 /* AppDelegate.swift in Sources */,
+				B816748F26BF0C6900C2F586 /* NavBarListDetailsViewController.swift in Sources */,
 				B816748026BF062600C2F586 /* AnotherDummy.xcdatamodeld in Sources */,
 				B816747826BF062600C2F586 /* SceneDelegate.swift in Sources */,
 			);
